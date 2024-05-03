@@ -1,0 +1,31 @@
+/* Navbar.css */
+
+.navbar {
+  background-color: #f0f0f0;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-title {
+  font-weight: bold;
+  font-family: 'Comic Sans MS', cursive; /* Example of a creative font */
+  color: rgb(61, 61, 179);
+  margin: 0; /* Remove default margin */
+  text-align:center; /* Center align the title */
+  flex: 1; /* Take up remaining space */
+  margin-left: 380px; /* 30px from left */
+
+}
+
+.navbar-logo {
+  width: 180px; /* Adjust size as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-left: 580px; /* 20px from right */
+}
+
+
+.navbar-logo:hover {
+  filter: brightness(1.5); /* Increase brightness on hover */
+}

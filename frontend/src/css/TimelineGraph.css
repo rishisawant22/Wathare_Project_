@@ -1,0 +1,59 @@
+/* TimelineGraph.css */
+.Timeframe{
+margin-right: -100px;
+font-size: bold;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button-container h5 {
+  margin-right: -7%;
+  margin-top: 1%;
+}
+
+.button-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: right;
+  margin-top: 2%;
+}
+
+.button-list li {
+  margin-right: 15px;
+}
+
+.container {
+  position: relative;
+  top: 100px;
+  margin-left: 16%;
+  height: 60px;
+}
+
+.cycle-status {
+  font-size: 20px;
+  margin-bottom: 1%;
+}
+
+.timeline-entry {
+  position: absolute;
+  width: 0.2px;
+  height: 100%;
+}
+
+/* Define colors */
+.status-yellow {
+  background-color: yellow;
+}
+
+.status-green {
+  background-color: green;
+}
+
+.status-red {
+  background-color: red;
+}

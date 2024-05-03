@@ -1,0 +1,65 @@
+/* DataSimulator.css */
+.data-simulator {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin-left: 300px;
+    margin-top: 5%;
+  }
+  
+  .data-simulator h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .simulate-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .simulate-button:hover {
+    background-color: #00b357;
+  }
+  
+  .simulated-data {
+    margin-top: 20px;
+  }
+  
+  .simulated-data h3 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  table {
+    width: 90%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    align-items: center;
+  }
+  
+  table td, table th {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  table td:first-child, table th:first-child {
+    border-left: 1px solid #ddd;
+  }
+  
+  table td:last-child, table th:last-child {
+    border-right: 1px solid #ddd;
+  }
+  
+  table tr:last-child td {
+    border-bottom: none;
+  }
+  
